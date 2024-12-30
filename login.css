@@ -1,0 +1,80 @@
+.LOGIN{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+   color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.75);
+   background-position: center;
+    overflow: hidden;
+    
+}
+form{
+    display: block;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 40%;
+    height: 40%;
+    backdrop-filter: brightness(40%);
+    flex-direction: column;
+    display: flex;
+    gap: 2px;
+    margin-left:30%;
+    margin-top: 10%;
+    border-radius: 40px;
+    background-color:rgb(223, 147, 6);
+    
+    
+
+}
+h1{
+    font-weight: normal;
+    font-size: 24px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    margin-bottom: 60px;
+    
+
+}
+label{
+    color: rgba(225, 225, 255, 0.8);
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding-left: 10px ;
+    text-shadow: 0px 2px 2px rgb(249, 239, 239);
+
+}
+input{
+    background: rgba(255, 255, 255, 0.3);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+    padding: 0px 20px;
+    border: none;
+    margin-bottom: 20px;
+    color: white;
+
+}
+.button{
+    background: rgb(45, 126, 231);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 40px;
+    border:darkgoldenrod;
+    margin: 10px 0px;
+    box-shadow:darkgreen;
+    color: white;
+    text-decoration: none;
+  text-align: center;
+}
+.ss{
+    color:black;
+    text-shadow: none;
+    text-align: center;
+    font-size: large;
+   
+}
+.ss:hover{
+    cursor:pointer;
+    text-decoration: underline white;
+}

@@ -1,0 +1,139 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+
+
+.navbar{
+   display: flex;
+   justify-content: space-between;
+align-items: center;
+padding: 10px;
+box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+background-color:pink;
+}
+.navbar-links{
+   display: flex;
+column-gap: 20px;
+padding-right: 70px;
+}
+.navbar-links a{
+   text-decoration: none;
+   color: #1d232c;
+}
+.navbar-links a:hover{
+   text-decoration: underline;
+   cursor: pointer;
+   color: #1D232C;
+}
+/*phone*/
+.navbar-menu-toggle{
+   display: none;
+}
+@media screen and (max-width:600px){
+   .navbar-menu-toggle{
+      display: block;
+}
+.navbar-links{
+   display: none;
+}
+}
+
+
+/*side navbar*/
+.side-navbar{
+   background-color: #1D232C;
+   width: 50%;
+   height: 100%;
+   position: fixed;
+   top: 0;
+   left: -60%;
+   padding: 20px;
+   color: white;
+  transition: 2s;
+}
+.side-navbar-link{
+   margin-bottom: 30px;
+}
+.side-navbar-links a{
+   color: white;
+   text-decoration: none;
+
+}
+.side-navbar-link a:hover{
+   text-decoration: underline;
+}
+/*searchbar*/
+.news{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+margin-top: 10px;
+}
+.news input{
+   padding: flex;
+   width: 80vw;
+   margin-bottom: 1%;
+   border: solid black 3px;
+   margin-top: 2%;
+   height: 40px;
+   line-height: 40px;
+   border-radius: 40px;
+}
+/*pic width*/
+nav{
+   color:black;
+
+}
+.container{
+   margin: 10% 0 0 15%;
+   width: 70%;
+   height: 450px;
+   display: flex;
+   justify-content: center;
+   gap: .5%;
+
+}
+.container img{
+   width: 10%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 10px;
+   border: 2px solid white;
+   transition: all ease-in-out 0.5s;
+   
+}
+.container img:hover{
+   width: 35%;
+
+}
+/*footer*/
+.footer{
+   margin-top: 20px;
+   padding: 40px;
+   background-color: #1D232C ;
+color: #F2F4F7;
+}
+/*dropdown*/
+.dropdown{
+   position: relative;
+   display: inline-block;
+}
+.dropdown-content{
+   display: none;
+   position: absolute;
+   background-color: black;
+   min-width: 180px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   padding: 12px 16px;
+   z-index: 1;
+   color: aqua;
+   
+
+}
+.dropdown:hover .dropdown-content{
+   display: block;
+}
+.font{
+   display: none;
+}

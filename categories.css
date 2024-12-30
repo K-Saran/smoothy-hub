@@ -1,0 +1,39 @@
+img{
+    height: 300px;
+    width: 300px;
+    background-color: palevioletred;
+    
+}
+.container {
+   padding: 20PX;
+   gap: 10px;
+display: flex;
+  flex-wrap: wrap;
+ position: relative; 
+left: 40px;
+
+   
+}
+.container-box{
+    text-align: center;
+    flex-basis: 30%;
+    background-color: pink;
+    padding-top: 50px;
+    
+}
+.aw{
+  margin-top: 20px;
+  padding: 10px;
+ 
+ 
+}
+h1{
+  color:rgb(6, 229, 6);
+}
+header{
+  font-size: 100PX;
+  text-align: center;
+  color: rgb(6, 201, 201);
+  cursor: pointer;
+  text-decoration: underline;
+}
